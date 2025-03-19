@@ -5,10 +5,22 @@
     <title>Species Data</title>
     <link rel="File-List" href="./species.fld/filelist.xml">
 	 <style>
-        body {
-            transform: scale(1.25); /* 150% zoom */
-            transform-origin: top left; /* Keeps the zoom effect anchored at the top left */
-            width: 66.67vw; /* Compensates for zoom to prevent horizontal scrolling */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrolling */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: lightblue; /* Example background */
+        }
+
+        .content {
+            width: 90%;
+            max-width: 1200px; /* Prevents it from becoming too wide */
         }
     </style>
 <style id="species.sheet_16843_Styles">
