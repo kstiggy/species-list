@@ -5,22 +5,20 @@
     <title>Species Data</title>
     <link rel="File-List" href="./species.fld/filelist.xml">
 	 <style>
-        html, body {
+       html, body {
             margin: 0;
             padding: 0;
             width: 100vw;
-            height: 100vh;
-            overflow: hidden; /* Prevent scrolling */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background-color: lightblue; /* Example background */
+            min-height: 100vh; /* Ensures full height */
+            overflow-x: hidden; /* Prevents horizontal scrolling */
+            font-family: Arial, sans-serif;
         }
 
         .content {
-            width: 90%;
-            max-width: 1200px; /* Prevents it from becoming too wide */
+            width: 100%; /* Ensures content stretches to the full width */
+            max-width: 1200px; /* Optional: Limits width for readability */
+            margin: 0 auto; /* Centers content */
+            padding: 20px;
         }
     </style>
 <style id="species.sheet_16843_Styles">
